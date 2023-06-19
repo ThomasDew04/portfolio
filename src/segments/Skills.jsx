@@ -26,7 +26,7 @@ export default memo(function Skills() {
 
     return (
         <div className='mainSkills'>
-            <h1 className='header2'>&lt;/&gt; Skills</h1>
+            <h1 className='header2' id="Skills">&lt;/&gt; Skills</h1>
             <div className='skillsContainer'>
                 <h3>What I do</h3>
                 <Icons />
