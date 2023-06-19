@@ -17,6 +17,7 @@ html, body {
     margin: 0;
     padding: 0;
     display: border-box;
+    scroll-behavior: smooth;
 }
 
 .main {
@@ -242,3 +243,52 @@ h2 {
     align-items: center;
     width: 100%;
 }
+
+.iconSkill {
+    height: 180px;
+    width: 180px;
+}
+
+.header2 {
+    color: orangered;
+    font-family: 'Jua', sans-serif;
+    font-size: 75px;
+    margin-right: 5%;
+    text-align: end;
+}
+
+.skillsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 11.8%;
+}
+
+h3 {
+    font-family: 'Jua', sans-serif;
+    font-size: 60px;
+    color: var(--textColor);
+}
+
+.iconName {
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    color: var(--titleColor);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 35px 20px;
+    margin-top: 5%;
+}
+
+
+

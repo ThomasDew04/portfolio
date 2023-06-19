@@ -7,7 +7,7 @@ export default memo(function About() {
     return (
         // svg2
         <div className='mainAbout'>
-            <h1 className='header'>&lt;/&gt; About</h1>
+            <h1 className='header' id='About'>&lt;/&gt; About</h1>
             <div className='aboutContainer'>
                 <h2>So, who am I?</h2>
                 <p className='aboutTxt'>My name is Thomas. Designing & coding playful & pretty websites is my passion. 
