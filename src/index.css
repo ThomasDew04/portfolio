@@ -175,6 +175,7 @@ a:hover {
     border-radius: 10px;
     z-index: 99;
     margin-bottom: 70px;
+    object-fit: cover;
 }
 
 #svg1 {
@@ -193,11 +194,13 @@ a:hover {
 }
 
 .header {
-    color: orangered;
+    color: var(--bgColor);
     font-family: 'Jua', sans-serif;
     font-size: 75px;
     margin-top: 5%;
     margin-left: 5%;
+    z-index: 99 !important;
+    position: relative;
 }
 
 h2 {
@@ -251,11 +254,13 @@ h2 {
 }
 
 .header2 {
-    color: orangered;
+    color: var(--bgColor);
     font-family: 'Jua', sans-serif;
     font-size: 75px;
     margin-right: 5%;
     text-align: end;
+    position: relative;
+    z-index: 99 !important;
 }
 
 .skillsContainer {
@@ -391,7 +396,7 @@ h3 {
 .caroursel-buttons {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .mainWork {
@@ -415,6 +420,7 @@ h3 {
     background-color: transparent;
     width: 80%;
     margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 .inputContainer {
@@ -426,17 +432,18 @@ h3 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .formRight {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: -10px;
 }
 
 .formInputBig {
     width: 385px;
-    height: 100px;
+    height: 160px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     resize: none;
     outline: none;
@@ -445,6 +452,7 @@ h3 {
     font-size: 20px;
     font-family: 'Jua', sans-serif;
     color: var(--textColor);
+    margin-bottom: 20px;
 }
 
 .formSubmit {
@@ -474,4 +482,98 @@ footer {
     justify-content: center;
     align-items: center;
     font-family: 'Jua', sans-serif;
+}
+
+.contactContainer {
+    width: 60vw;
+    height: 65vh;
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+
+.formFields {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.formBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.circle  {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--textColor);
+    z-index: 98;
+    position: absolute;
+    margin-bottom: 270px !important;
+    margin-left: 300px;
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #c5cbce;
+    z-index: 98;
+    position: absolute;
+    margin-left: 430px;
+    animation: floating ease-in-out 3s infinite;
+}
+
+.svg-con {
+    position: relative;
+    z-index: 98;
+    overflow: visible;
+}
+
+.svg1 {
+    z-index: 1;
+    position: absolute;
+    overflow: visible !important;
+    height: 430px;
+    width: 540px;
+}
+
+.svg2 {
+    z-index: 1;
+    position: absolute;
+    overflow: visible !important;
+    height: 430px;
+    width: 540px;
+    margin-left: 65%;
+    margin-bottom: 10%;
+}
+
+.svg3 {
+    z-index: 1;
+    position: absolute;
+    overflow: visible !important;
+    height: 450px;
+    width: 580px;
+}
+
+.svg4 {
+    z-index: 1;
+    position: absolute;
+    overflow: visible !important;
+    height: 450px;
+    width: 580px;
+    margin-left: 61%;
+
+}
+
+.svg5 {
+    z-index: 1;
+    position: absolute;
+    /* overflow: visible !important; */
+    height: 450px;
+    width: 580px;
 }

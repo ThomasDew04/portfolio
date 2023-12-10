@@ -67,7 +67,9 @@ export default memo(function Work() {
     
     return (
       <div className="mainWork">
-        {/* svg5 */}
+      <svg viewBox="0 0 792 404" fill="none" xmlns="http://www.w3.org/2000/svg" className="svg3">
+        <path d="M788.934 8C664.652 250.644 91.9341 -8 -39.0659 404C-242.859 404 -201.566 16.7021 -201.566 -80.5C-201.566 -177.702 -226.859 -545 -23.0659 -545C133.994 -233 841.434 -94.5 788.934 8Z" fill="#9DB2BF"/>
+      </svg>
         <h1 className="header" id="Work">
           &lt;/&gt; Work
         </h1>

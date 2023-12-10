@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { BsChevronDown, BsLinkedin, BsGithub, BsInstagram, BsDiscord } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
-import pic from '../images/guidoHappy - kopie.png'
+import pic from '../images/me.png'
 
 
 export default memo(function Home() {
@@ -24,7 +24,8 @@ export default memo(function Home() {
             </div>
             <div className='homeRight'>
                 <img className="pic" src={pic} alt=""/>
-                {/* svg here */}
+                <div className="circle" />
+                <div className="circle1" />
             </div>
         </div>
     );
